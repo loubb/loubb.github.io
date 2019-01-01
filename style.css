@@ -1,0 +1,52 @@
+body{
+    margin:0px 200px;
+}
+
+img.header {
+  height: 200px;
+}
+
+a.header {
+  color: black;
+  font-size: 200%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.vid {
+    display:none;
+}
+
+video.vid {
+    width: 800px;
+}    
+
+button.home{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+img.somecrap{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td{
+    background-color:black;
+    border-collapse: collapse;
+    vertical-align: top;
+    font-size: 100%;    
+    font-family: sans-serif;       
+    padding:0 0;
+}
+
+table.somecrap, td.somecrap{
+    border: 1px solid;
+}
+

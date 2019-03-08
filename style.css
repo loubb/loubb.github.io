@@ -1,12 +1,12 @@
 body{
     margin:0px 100px;
-    font-size: 100%;
+    font-size: 180%;
 }
 
 .column {
   background-color: white;
   float: left;
-  width: 45%;
+  width: 30%;
 }
 
 /* Clear floats after the columns */
@@ -17,7 +17,7 @@ body{
 }
 
 img.header {
-  height: 130px;
+  height: 100px;
 }
 
 img.graphs{
@@ -30,13 +30,13 @@ img.graphs{
 a {
 }
 
-.nav {
+a, .nav {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.nav:hover {
+a:hover, .nav:hover {
   color: grey;
 }
 

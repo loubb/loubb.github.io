@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-10-04 Tue 14:22 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tue Oct04: Duologues</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<style>*{font-size: x-large;}</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Tue Oct04: Duologues</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org6558733">1. Kangaroo Pub!</a></li>
+<li><a href="#org15aba20">2. Three Rings for the Elven-kings under the sky</a></li>
+<li><a href="#orgfae7861">3. Apollo 11 disaster contingency speech</a></li>
+<li><a href="#org232c669">4. Winston Churchill Duologue</a>
+<ul>
+<li><a href="#orgee9f90c">4.1. Mi Hermana Sally (My sister Sally)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+-<b>- mode: org -</b>-<br />
+</p>
+
+<div id="org2adaad1" class="figure">
+<p><img src="./img/roo.jpg" alt="roo.jpg" /><br />
+</p>
+</div>
+<div id="outline-container-org6558733" class="outline-2">
+<h2 id="org6558733"><span class="section-number-2">1.</span> <a href="https://www.abc.net.au/news/2020-03-21/the-unique-wa-pub-where-you-can-have-a-beer-with-a-kangaroo/12060590">Kangaroo Pub!</a></h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<a href="https://www.youtube.com/watch?v=RNMG27bl4kc">Capoeira: basic moves</a><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org15aba20" class="outline-2">
+<h2 id="org15aba20"><span class="section-number-2">2.</span> Three Rings for the Elven-kings under the sky</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Three Rings for the Elven-kings under the sky,<br />
+Seven for the Dwarf-lords in their halls of stone,<br />
+Nine for Mortal Men doomed to die,<br />
+One for the Dark Lord on his dark throne,<br />
+</p>
+
+<p>
+<b>In the Land of Mordor where the Shadows lie</b><br />
+</p>
+
+<p>
+One Ring to rule them all, One Ring to find them,<br />
+One Ring to bring them all, and in the darkness bind them,<br />
+</p>
+
+<p>
+<b>In the Land of Mordor where the Shadows lie</b><br />
+</p>
+
+<p>
+<i>J.R.R. Tolkien</i><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfae7861" class="outline-2">
+<h2 id="orgfae7861"><span class="section-number-2">3.</span> Apollo 11 disaster contingency speech</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Player 1:<br />
+Fate has ordained that the men who went to the moon to explore in peace will stay on the moon to rest in peace.<br />
+These brave men, Neil Armstrong and Edwin Aldrin, know that there is no hope for their recovery. But they also know that there is hope for mankind in their sacrifice.<br />
+These two men are laying down their lives in mankind’s most noble goal: the search for truth and understanding.<br />
+</p>
+
+<p>
+Player 2:<br />
+They will be mourned by their families and friends; they will be mourned by their nation; they will be mourned by the people of the world; they will be mourned by a Mother Earth that dared send two of her sons into the unknown.<br />
+In their exploration, they stirred the people of the world to feel as one; in their sacrifice, they bind more tightly the brotherhood of man.<br />
+In ancient days, men looked at stars and saw their heroes in the constellations. In modern times, we do much the same, but our heroes are epic men of flesh and blood.<br />
+</p>
+
+<p>
+Player 1:<br />
+Others will follow, and surely find their way home. Man’s search will not be denied. But these men were the first, and they will remain the foremost in our hearts.<br />
+For every human being who looks up at the moon in the nights to come will know that there is some corner of another world that is forever mankind.<br />
+</p>
+
+<p>
+<i>William Safire</i><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org232c669" class="outline-2">
+<h2 id="org232c669"><span class="section-number-2">4.</span> Winston Churchill Duologue</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+P1:<br />
+The British Empire and the French Republic, linked together in their cause and in their need, will defend to the death their native soil, aiding each other like good comrades to the utmost of their strength.<br />
+</p>
+
+<p>
+P2:<br />
+Even though large tracts of Europe and many old and famous states have fallen or may fall into the grip of the Gestapo and all the odious apparatus of Nazi rule, we shall not flag or fail.<br />
+</p>
+
+<p>
+<b>Chorus</b><br />
+We shall not flag or fail<br />
+We shall never surrender<br />
+We shall go on to the end<br />
+Whatever the cost may be<br />
+</p>
+
+<p>
+P1:<br />
+We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our island, whatever the cost may be.<br />
+</p>
+
+<p>
+<b>Chorus</b><br />
+We shall not flag or fail<br />
+We shall never surrender<br />
+We shall go on to the end<br />
+Whatever the cost may be<br />
+</p>
+
+<p>
+P2:<br />
+We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills;<br />
+</p>
+
+<p>
+P1:<br />
+We shall never surrender, and even if, which I do not for a moment believe, this island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British fleet, would carry on the struggle, until, in God's good time, the new world, with all its power and might, steps forth to the rescue and the liberation of the old."<br />
+</p>
+
+<p>
+<b>Chorus</b><br />
+We shall not flag or fail<br />
+We shall never surrender<br />
+We shall go on to the end<br />
+Whatever the cost may be<br />
+<a href="https://translate.google.com/?sl=es&amp;tl=en&amp;text=Nosotros%20no%20debilitaremos.%20Nosotros%20no%20fallaremos.%0ANosotros%20nunca%20nos%20rendiremos.%0APerseveraremos%2C%20el%20costo%20no%20es%20importante.&amp;op=translate">Español!</a><br />
+</p>
+</div>
+
+
+<div id="outline-container-orgee9f90c" class="outline-3">
+<h3 id="orgee9f90c"><span class="section-number-3">4.1.</span> Mi Hermana Sally (My sister Sally)</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Mi nombre es Luis ~<br />
+My name is Luis.<br />
+</p>
+
+<p>
+Soy un ingeniero (solucionador de problemas)<br />
+~ I am an engineer (problem-solver)<br />
+</p>
+
+<p>
+Levanto pesas. Corro en el río de los cisnes.<br />
+I lift weights. I jog at the River of Swans.<br />
+</p>
+
+
+<p>
+Mi hermano Martin, es un ingeniero (solucionador de problemas) ~<br />
+My brother Martin, is an engineer (problem-solver).<br />
+</p>
+
+<p>
+Vive en el valle del silicio    ~<br />
+He lives in the Valley of Silicon<br />
+</p>
+
+<p>
+Le gustan los pastores alemanes ~<br />
+He likes German Shepherds.<br />
+</p>
+
+<p>
+Le gustan la comida polacka<br />
+~ He likes Polish cuisine (food)<br />
+</p>
+
+<p>
+Mi hermana Sally es psicóloga<br />
+~ My sister (Sally) is a psychologist.<br />
+</p>
+
+<p>
+Ella vive en Londres<br />
+~ She lives in London.<br />
+Le gustan los gatos birmanos<br />
+~ She likes Burmese cats.<br />
+</p>
+
+<p>
+Le gustan la comida tailandesa<br />
+~ She likes Thai cuisine (food)<br />
+</p>
+
+<p>
+Amo a todos en mi familia<br />
+~ I love everyone in my family<br />
+</p>
+
+<p>
+Amo especialmente a Sally<br />
+~ I especially love Sally.<br />
+</p>
+
+<p>
+Haría cualquier cosa por Sally<br />
+~ I would do anything for Sally.<br />
+#+END<sub>COMMENT</sub><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2022-10-04 Tue 14:22</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

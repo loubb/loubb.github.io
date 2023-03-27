@@ -1,0 +1,83 @@
+-*- mode: org -*-
+#+title: Diary: March 2023
+#+OPTIONS: \n:t
+# C-c C-x C-v:      org-toggle-inline-images
+# C-S-backspace:    delete line
+# C-x C-s           save current file
+# C-x s!:           save all files
+# C-x k             kill current buffer
+# C-c C-e h:        publish to html
+
+* Diary
+| Mon  |                   |      |      |
+| ??   | homeswest         |      |      |
+|      |                   |      |      |
+| Tue  |                   |      |      |
+| 1930 | ARIS              |      |      |
+|      |                   |      |      |
+| Wed  |                   |      |      |
+| 1000 | 134 Palmerston St |      |      |
+|      |                   |      |      |
+| Thu  |                   |      |      |
+|      |                   | 1100 | CADS |
+|      |                   |      |      |
+| Fri  |                   |      |      |
+|      |                   |      |      |
+|      |                   |      |      |
+| Sat  |                   |      |      |
+|      |                   |      |      |
+|      |                   |      |      |
+| Sun  |                   |      |      |
+
+* Gym
+
+| PUSH              | DATE |     KG | PULL            | DATE |     KG |
+| leg press (TG)    | 27.4 |  100.0 | leg curl (TG34) | 27.4 |   35.0 |
+| 1-leg "           | 27.4 |   60.0 |                 |      |        |
+| squat             |      |        | deadlift        |    ? |   27.5 |
+|                   |      |        |                 |      |        |
+|                   |      |        |                 |      |        |
+| chest press (TG)  | 27.4 |   47.5 | row (TG)        | 27.4 |  55.0H |
+| BP                |      |   42.5 | bent-over row   |      |        |
+| BP (DB)           | ?    | 2x17.5 | row (DB)        |    ? | 2x22.5 |
+| IBP (TG4)         | ?    |   42.5 |                 |      |        |
+| IBP (DB)          | ?    | 2x15.0 |                 |      |        |
+|                   |      |        |                 |      |        |
+|                   |      |        |                 |      |        |
+| MP (TG)           | 27.4 |  40.0H | lat pulldown    | 27.4 |   60.0 |
+| MP                | ?    |   25.0 |                 |      |        |
+| MP (DB)           | ?    |  2x7.0 |                 |      |        |
+|                   |      |        |                 |      |        |
+| rear delt/pec fly | ?    |   45.0 |                 |      |        |
+|                   |      |        |                 |      |        |
+H: hard
+
+** complete
+| Mar21 | saw Rebecca (physio)                   |
+| Tue07 | 1300  Wayno                            |
+| Tue14 | 1100  Dr Vijay Panicker, 85 Monash Ave |
+| Wed15 | 0900  Palmerston House                 |
+| Fri17 | 1130  Dr Upa (HomesWest form)          |
+
+*  work
+Baeldung/APS
+language swap, coding buddy
+old ppl
+
+*  to read/watch
+Every Version of You (Grace Chan)
+Beforeigners
+
+* to buy
+protein powder
+snakeboard, speaker
+
+* rnd
+https://www.antidopamine.com/stop-porn/list-of-benefits/
+-dairy
+
+F1   go to previous workspace
+F9   minimise window
+F10  toggle shaded state
+F11  toggle fullscreen mode
+F12  toggle maximisation state
